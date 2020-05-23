@@ -6,7 +6,7 @@ class Rain{
     }
 
     display(){
-        fill('blue')
+        stroke('blue')
         line(this.x, this.y, this.x, this.y+this.length)
     }
 
