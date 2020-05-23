@@ -6,7 +6,7 @@ class Rain{
     }
 
     display(){
-        stroke('blue')
+        stroke(random(0,20),random(0,180),random(180,255))
         line(this.x, this.y, this.x, this.y+this.length)
     }
 
